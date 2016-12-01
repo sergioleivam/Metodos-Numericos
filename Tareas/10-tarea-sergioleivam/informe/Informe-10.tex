@@ -1,0 +1,83 @@
+\documentclass[10pt]{article} 
+\usepackage[spanish,activeacute]{babel} %idioma español
+\usepackage[utf8]{inputenc}             %transforma los tildes a lenguaje latex automáticamente
+\usepackage{multirow}                   %Permite cosntruir tablas en las que algunas celdas ocupan varias filas dentro de un entorno tabular con la orden \multirow, en el caso de columnas es \multicolumn  ... \multirrow{nrow}{width}[vmove]{contenido}
+% nrow: número de filas a agrupar
+%width: ancho de la columna
+%vmove: sirve para subir o bajar el texto (opcional)
+\usepackage{epsfig}                     %permite incluir gráficos eps
+\usepackage{graphicx}                   %Permite incluir gráficos e imágenes
+\usepackage{subfig}                     %Permite hacer subfiguras
+\usepackage{amsmath}                    %Extiende el modo matemático
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\usepackage{colortbl} %Permite agregar color a las tablas
+\usepackage{epstopdf}                 %Permite utilizar imagenes en formato eps
+\usepackage{float}   %permite indicar la posición de las figuras
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+\renewcommand{\baselinestretch}{1.5}
+\parskip=4pt
+
+\usepackage{fullpage}            %%
+\usepackage{fancyhdr} 
+\usepackage{mdframed}            %%
+
+\setlength{\headheight}{54pt}    %%
+\setlength{\headsep}{1em}        %%
+\setlength{\textheight}{8.5in}  
+\setlength{\footskip}{0.5in} 
+
+
+\fancypagestyle{firstpage}
+{
+  \fancyhf{}
+  \lhead{\includegraphics[height=5em]{LogoDFI.jpg}}
+  \rhead{FI3104-1 \semestre\\
+         Métodos Numéricos para la Ciencia e Ingeniería\\
+         Prof.: \profesor}
+  \fancyfoot[C]{\thepage}
+}
+
+\pagestyle{plain}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+
+\newcommand{\semestre}{2016-2}
+\newcommand{\profesor}{Valentino González}
+
+
+
+\begin{document}
+
+\author{Sergio Leiva M.}
+\title{\textbf{Informe Tarea }}
+\maketitle
+
+\thispagestyle{firstpage}
+
+\section{P1}
+
+Aqui se responden las preguntas acerca de los videos que se pidio ver.
+
+\begin{enumerate}
+\item [1)] You can nest the list
+environments to your taste:
+\end{enumerate}
+
+
+\section{Introducción}
+
+ 
+\section{Procedimiento}
+
+ 
+\section{Resultados}
+
+
+\section{Conclusiones}
+
+
+\end{document}}
